@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ── Modelos entrenados (grandes, nunca en Git) ──
+*.h5
+WilhemNet_86.h5
+WilhemNet86.h5
+conv_MLP_84.h5
+
+# ── Entorno y cachés ──
+.venv/
+__pycache__/
+.pytest_cache/
